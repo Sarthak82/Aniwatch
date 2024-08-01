@@ -1,0 +1,10 @@
+.body__title{
+    padding: 40px 0 10px 40px;
+}
+
+.body__cards{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
