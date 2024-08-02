@@ -7,13 +7,12 @@ function Header() {
     <div className='header'>
          <Link to='/'>
             <div className='header__logo'>
-              <img src='https://images.sftcdn.net/images/t_app-icon-m/p/5222cf88-e4dc-4a9d-bda1-4f6368b83184/3620294077/aniwatch-anime-online-tv-logo' alt='aniwave logo'/>
+              <img src='https://avatarfiles.alphacoders.com/239/thumb-1920-239249.jpg' alt='aniwave logo'/>
             </div>
         </Link>
 
         <div className='header__search'>
-            <input className="header__input"type='text' placeholder='Search Anime'/>
-            <button className='header__inputButtton'>Search</button>
+            <Link to='/search'><button className='header__inputButtton'>Search button</button></Link>
         </div>
 
         <div className='header__menu'>

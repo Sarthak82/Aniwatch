@@ -1,0 +1,77 @@
+.searchAnime {
+    padding: 20px;
+    text-align: center;
+}
+
+.searchAnime__form {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.searchAnime__input {
+    padding: 10px;
+    font-size: 16px;
+    width: 300px;
+    margin-right: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.searchAnime__searchBtn {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.searchAnime__searchBtn:hover {
+    background-color: #0056b3;
+}
+
+.searchAnime__card {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.searchAnimeCard {
+    background-color: #f9f9f9;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    width: 250px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s;
+}
+
+.searchAnimeCard:hover {
+    transform: scale(1.05);
+}
+
+.searchAnimeCard__image {
+    width: 100%;
+    height: auto;
+    border-radius: 4px;
+    margin-bottom: 10px;
+}
+
+.searchAnimeCard__info {
+    font-size: 14px;
+    color: #555;
+}
+
+.searchAnimeCard__info h3 {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+.searchAnimeCard__info span {
+    display: block;
+    margin: 4px 0;
+}
