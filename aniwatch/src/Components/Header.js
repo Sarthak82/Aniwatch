@@ -18,8 +18,8 @@ function Header() {
 
         <div className='header__menu'>
             <Link to='/'><button className='header__button'>Home</button></Link>
-            <Link to='./popular'><button className='header__button'>Popular</button></Link>
-            <button className='header__button'>Top Rated</button>
+            <Link to='/popular'><button className='header__button'>Popular</button></Link>
+            <Link to="/recommendation"><button className='header__button btn'>RECOMM</button></Link>
         </div>
 
       

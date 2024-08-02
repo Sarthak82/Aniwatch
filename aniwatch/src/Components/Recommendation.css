@@ -1,4 +1,4 @@
-.popular {
+.recommendation {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -6,16 +6,16 @@
     background-color: #f9f9f9;
   }
   
-  .popular__title {
+  .recommendation__title {
     margin-bottom: 20px;
   }
   
-  .popular__title h1 {
+  .recommendation__title h1 {
     font-size: 2.5rem;
     color: #333;
   }
   
-  .popular__animeCard {
+  .recommendation__card {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;

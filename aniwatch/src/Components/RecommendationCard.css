@@ -1,0 +1,38 @@
+.recommendationCard {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    overflow: hidden;
+    padding: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 250px;
+    box-sizing: border-box;
+    margin: 20px; /* Added margin to separate cards */
+  }
+  
+  .recommendationCard__entry {
+    margin-bottom: 20px;
+  }
+  
+  .recommendationCard__img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+  }
+  
+  .recommendationCard__info {
+    padding: 10px 0;
+    text-align: center;
+  }
+  
+  .recommendationCard__info h4 {
+    font-size: 1.2rem;
+    color: #333;
+    margin-bottom: 5px;
+  }
+  
+  .recommendationCard__info p {
+    font-size: 0.9rem;
+    color: #666;
+  }
+  
