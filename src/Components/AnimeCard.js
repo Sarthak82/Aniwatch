@@ -1,11 +1,14 @@
 import React from 'react'
 import './AnimeCard.css'
+import { Link } from 'react-router-dom'
 
 function AnimeCard({anime }) {
 
     return (
         <div className='animecard'>
-            <img src= {anime?.images?.jpg?.image_url} alt={anime?.title}/>
+            <Link to={`/anime/${anime.mal_id}`}> 
+                <img src= {anime?.images?.jpg?.image_url} alt={anime?.title}/>
+            </Link>
             <h4>{anime?.title}</h4>
 
             <div className='animecard__info'>

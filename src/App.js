@@ -7,7 +7,7 @@ import NotFound from './Components/NotFound';
 import Popular from './Components/Popular';
 import Recommendation from './Components/Recommendation';
 import SearchAnime from './Components/SearchAnime';
-
+import AnimePage from './Components/AnimePage';
 
 
 function App() {
@@ -18,6 +18,7 @@ function App() {
           <Route path="/popular" element={[<Header/>,<Popular/>]} />
           <Route path="/recommendation" element={[<Header/>,<Recommendation/>]} />
           <Route path='/search' element={[<Header/>,<SearchAnime/>]} />
+          <Route path='/anime/:id' element={[<Header/>,<AnimePage/>]} />
           <Route path="/" element={[<Header/>,<Body/>]} />
           <Route path="*" element={[<NotFound/>]} />
         </Routes>

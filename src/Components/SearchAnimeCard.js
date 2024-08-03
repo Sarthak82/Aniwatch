@@ -1,10 +1,13 @@
 import React from "react";
 import "./SearchAnimeCard.css"
+import { Link } from 'react-router-dom'
 
 const SearchAnimeCard = ({item})=>{
     return(
         <div className="searchAnimeCard">
-            <img className="searchAnimeCard__image" src={item?.images?.jpg?.image_url} alt={item?.title}/>
+            <Link to={`/anime/${item?.mal_id}`} className="searchAnimeCard__link">
+                <img className="searchAnimeCard__image" src={item?.images?.jpg?.image_url} alt={item?.title}/>
+            </Link>
 
             <div className="searchAnimeCard__info">
                 <h3>{item?.title}</h3>

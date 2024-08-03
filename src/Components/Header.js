@@ -12,7 +12,7 @@ function Header() {
         </Link>
 
         <div className='header__search'>
-            <Link to='/search'><button className='header__inputButtton'>Search button</button></Link>
+            <Link to='/search'><button className='header__inputButtton'>Search Anime</button></Link>
         </div>
 
         <div className='header__menu'>
