@@ -10,16 +10,15 @@ function AnimeInfo() {
     
 
     useEffect(()=>{
-      fetchData()
-    },[])
+        const fetchData = async ()=>{
+          const resp = await fetch(`https://api.jikan.moe/v4/anime/${id}`)
+          const data = await resp.json()
+          setAnime(data.data)
+        }
+        fetchData()
+    },[id])
 
 
-
-    const fetchData = async ()=>{
-      const resp = await fetch(`https://api.jikan.moe/v4/anime/${id}`)
-      const data = await resp.json()
-      setAnime(data.data)
-    }
 
  
 

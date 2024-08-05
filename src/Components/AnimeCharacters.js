@@ -7,15 +7,16 @@ function AnimeCharacters() {
   const { id } = useParams();
 
   useEffect(() => {
-    FetchAnimeCharacters();
-  }, []);
+    const FetchAnimeCharacters = async () => {
+      const resp = await fetch(`https://api.jikan.moe/v4/anime/${id}/characters`);
+      const data = await resp.json();
+      setCharacters(data.data);
+    };
 
-  const FetchAnimeCharacters = async () => {
-    const resp = await fetch(`https://api.jikan.moe/v4/anime/${id}/characters`);
-    const data = await resp.json();
-    setCharacters(data.data);
-    console.log(data.data);
-  };
+    FetchAnimeCharacters();
+  }, [id]);
+
+
 
   return (
     <div className='animeCharacters'>
