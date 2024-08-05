@@ -7,7 +7,7 @@ function Header() {
     <div className='header'>
          <Link to='/'>
             <div className='header__logo'>
-              <img src='https://avatarfiles.alphacoders.com/239/thumb-1920-239249.jpg' alt='aniwave logo'/>
+              <img src='/images/Shingeki No Kyojin Asas Da Liberdade Logo - Logo Vector Online 2019-removebg-preview.jpg' alt='logo'/>
             </div>
         </Link>
 

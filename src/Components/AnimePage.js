@@ -1,11 +1,15 @@
-import React from 'react'
+
+import AnimeInfo from './AnimeInfo'
+
 
 function AnimePage() {
-  return (
-    <div className='animePage'>
-        <h1>This is anime Page</h1>
-    </div>
-  )
+
+
+    return (
+      <div className='animePage'>
+          <AnimeInfo />
+      </div>
+    )
 }
 
 export default AnimePage 

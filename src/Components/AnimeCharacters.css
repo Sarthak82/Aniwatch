@@ -1,0 +1,30 @@
+/* AnimeCharacters.css */
+.animeCharacters {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    margin: 20px;
+    padding: 20px;
+    background-color: #f4f4f4;
+    border-radius: 10px;
+  }
+  
+  .animeCharacters img {
+    width: 150px;
+    height: auto;
+    border-radius: 10px;
+    transition: transform 0.3s;
+  }
+  
+  .animeCharacters img:hover {
+    transform: scale(1.1);
+  }
+  
+  .animeCharacters h4 {
+    text-align: center;
+    margin-top: 10px;
+    font-size: 1.1em;
+    color: #333;
+  }
+  
